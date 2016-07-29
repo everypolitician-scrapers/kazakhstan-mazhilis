@@ -88,9 +88,7 @@ terms = [
 
 
 deputats.each do |data|
-	ScraperWiki.save_sqlite([:id, :name], data)
+	ScraperWiki.save_sqlite([:id, :name], data, terms)
 end
-
-ScraperWiki.save_sqlite(terms)
 
 
