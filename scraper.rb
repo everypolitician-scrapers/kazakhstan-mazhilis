@@ -40,8 +40,9 @@ def scrape_index_page_details_for(person)
 	deputat[:summary] = person.css('div.col-md-8').css('span').text.tidy
 
 	bio_page_uri = person.css('div.col-md-8').css('a.links')[0]['href'].sub('/ru','').tidy
-	deputat[:bio_page_russian] = "#{$base_url}/ru#{bio_page_uri}".tidy
-	deputat[:bio_page_kazakh] = "#{$base_url}/kk#{bio_page_uri}".tidy
+	deputat[:website] = "#{$base_url}/ru#{bio_page_uri}".tidy
+	deputat[:website__ru] = "#{$base_url}/ru#{bio_page_uri}".tidy
+	deputat[:website__kk] = "#{$base_url}/kk#{bio_page_uri}".tidy
 
 	image = person.css('div.col-md-4').css('a.links').css('img').attr('src')
 	deputat[:image] = "#{$base_url}#{image}"
@@ -67,13 +68,13 @@ deputats = deputats.map do |person|
 	#get russian bio url
 	page = page_for(person[:bio_page_russian])
 	bio = page.css('div.bio')
-	person[:name_russian] = bio.css('h2').text
-	person[:summary_russian] = bio.css('p').text
+	person[:name__ru] = bio.css('h2').text
+	person[:summary__ru] = bio.css('p').text
 	#get kazakh url
 	page = page_for(person[:bio_page_kazakh])
 	bio = page.css('div.bio')
-	person[:name_kazakh] = bio.css('h2').text
-	person[:summary_kazakh] = bio.css('p').text
+	person[:name__kk] = bio.css('h2').text
+	person[:summary__kk] = bio.css('p').text
 	person[:term] = '6'
 	person
 end
