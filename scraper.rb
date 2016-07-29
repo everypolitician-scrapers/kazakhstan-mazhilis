@@ -74,21 +74,11 @@ deputats = deputats.map do |person|
 	bio = page.css('div.bio')
 	person[:name_kazakh] = bio.css('h2').text
 	person[:summary_kazakh] = bio.css('p').text
-	person[:term] = 'term/6'
+	person[:term] = '6'
 	person
 end
 
-terms = [
-  { 
-    id: 'term/6',
-    name: 'Sixth Convocation',
-    start_date: '2016-03-20'
-  }
-]
-
-
 deputats.each do |data|
-	ScraperWiki.save_sqlite([:id, :name], data, terms)
+	ScraperWiki.save_sqlite([:id, :name], data)
 end
-
 
