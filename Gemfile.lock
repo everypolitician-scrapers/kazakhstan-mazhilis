@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    httpclient (2.8.0)
+    method_source (0.8.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    open-uri-cached (0.0.5)
+    pkg-config (1.1.7)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    scraperwiki (3.0.2)
+      httpclient
+      sqlite_magic
+    slop (3.6.0)
+    sqlite3 (1.3.11)
+    sqlite_magic (0.0.6)
+      sqlite3
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  open-uri-cached
+  pry
+  scraperwiki
+
+RUBY VERSION
+   ruby 2.0.0p648
+
+BUNDLED WITH
+   1.12.5
