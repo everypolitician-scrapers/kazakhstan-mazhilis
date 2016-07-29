@@ -76,14 +76,14 @@ deputats = deputats.map do |person|
 	#get russian bio url
 	page = page_for(person[:website__ru])
 	bio = page.css('div.bio')
-	name_ru = bio.css('h2').text
+	name_ru = bio.css('h2')
 	name_ru.css('br').each { |br| br.replace(' ') }
 	person[:name__ru] = name_ru.text
 	person[:summary__ru] = bio.css('p').text
 	#get kazakh url
 	page = page_for(person[:website__kk])
 	bio = page.css('div.bio')
-	name_kk = bio.css('h2').text
+	name_kk = bio.css('h2')
 	name_kk.css('br').each { |br| br.replace(' ') }
 	person[:name__kk] = name_kk.text
 	person[:summary__kk] = bio.css('p').text
