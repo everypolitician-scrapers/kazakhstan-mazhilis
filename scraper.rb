@@ -66,12 +66,12 @@ deputats = pages.map { |page| deputats_on(page) }.flatten
 
 deputats = deputats.map do |person|
 	#get russian bio url
-	page = page_for(person[:bio_page_russian])
+	page = page_for(person[:website__ru])
 	bio = page.css('div.bio')
 	person[:name__ru] = bio.css('h2').text
 	person[:summary__ru] = bio.css('p').text
 	#get kazakh url
-	page = page_for(person[:bio_page_kazakh])
+	page = page_for(person[:website__kk])
 	bio = page.css('div.bio')
 	person[:name__kk] = bio.css('h2').text
 	person[:summary__kk] = bio.css('p').text
