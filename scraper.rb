@@ -20,6 +20,14 @@ class String
   end
 end
 
+def generate_id_from(str)
+	arr = str.split('')
+	arr.map! do |i|
+		i.ord
+	end
+	arr.join
+end
+
 def page_for(url)
   Nokogiri::HTML(open(url).read)
 end
@@ -47,7 +55,7 @@ def scrape_index_page_details_for(person)
 	image = person.css('div.col-md-4').css('a.links').css('img').attr('src')
 	deputat[:image] = "#{$base_url}#{image}"
 
-	deputat[:id] = "#{$base_url}/kk#{bio_page_uri}".tidy.split('/').last
+	deputat[:id] = generate_id_from("#{$base_url}/kk#{bio_page_uri}".tidy.split('/').last)
 
 	deputat
 end
