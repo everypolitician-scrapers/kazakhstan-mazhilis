@@ -1,0 +1,44 @@
+---
+request:
+  method: get
+  uri: http://www.parlam.kz/kk/blogs/Oleynik
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Cache-Control:
+    - private
+    Content-Type:
+    - text/html; charset=utf-8
+    Vary:
+    - Accept-Encoding
+    Server:
+    - Microsoft-IIS/8.0
+    X-Aspnetmvc-Version:
+    - '4.0'
+    X-Aspnet-Version:
+    - 4.0.30319
+    Set-Cookie:
+    - __RequestVerificationToken=nTRJY9SwAEYUqPDt6oJ-pVCyzgDSXXv9S0OxR4zSM9sUMpB91_VdEXshVTtq4Mk2EAu3r9iXQ5r4ztg0zgDv1nEgzqWG_onka7Aew5rKwAQ1;
+      path=/; HttpOnly
+    X-Powered-By:
+    - ASP.NET
+    Date:
+    - Tue, 02 Aug 2016 20:35:01 GMT
+    Content-Length:
+    - '6634'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 02 Aug 2016 20:38:43 GMT
