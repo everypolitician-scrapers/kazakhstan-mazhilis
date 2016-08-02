@@ -1,0 +1,44 @@
+---
+request:
+  method: get
+  uri: http://www.parlam.kz/ru/blogs/SyzdykovT
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Cache-Control:
+    - private
+    Content-Type:
+    - text/html; charset=utf-8
+    Vary:
+    - Accept-Encoding
+    Server:
+    - Microsoft-IIS/8.0
+    X-Aspnetmvc-Version:
+    - '4.0'
+    X-Aspnet-Version:
+    - 4.0.30319
+    Set-Cookie:
+    - __RequestVerificationToken=A6_l6HUuuY-X434oGoQDALYQu4-fNWkFkUz37rdcqzTWl0yVTTMi9mHM7JxNzFeVWdptga0PZhggQDA4kvR_rsGu77HEP8qx7NLbXQwBSC81;
+      path=/; HttpOnly
+    X-Powered-By:
+    - ASP.NET
+    Date:
+    - Tue, 02 Aug 2016 20:52:52 GMT
+    Content-Length:
+    - '6670'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 02 Aug 2016 20:56:34 GMT
