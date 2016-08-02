@@ -11,7 +11,8 @@ require 'pry'
 require 'nokogiri'
 require 'open-uri/cached'
 require 'scraperwiki'
-require 'scraped_page_archive'
+require 'scraped_page_archive/open-uri'
+
 
 # OpenURI::Cache.cache_path = '.cache'
 
