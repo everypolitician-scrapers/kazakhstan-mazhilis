@@ -11,6 +11,7 @@ require 'pry'
 require 'nokogiri'
 require 'open-uri/cached'
 require 'scraperwiki'
+require 'scraped_page_archive'
 
 OpenURI::Cache.cache_path = '.cache'
 
@@ -29,7 +30,8 @@ def generate_id_from(str)
 end
 
 def page_for(url)
-  Nokogiri::HTML(open(url).read)
+  response = open(url)
+  Nokogiri::HTML(response.read)
 end
 
 def index_pages(base_url)
@@ -89,7 +91,7 @@ deputats = deputats.map do |person|
   name_kk.css('br').each { |br| br.replace(' ') }
   person[:name__kk] = name_kk.text
   person[:summary__kk] = bio.css('p').text
-  person[:term] = '6'
+  person[:term] = 6
   person
 end
 
