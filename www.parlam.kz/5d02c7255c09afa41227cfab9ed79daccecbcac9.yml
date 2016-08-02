@@ -1,0 +1,44 @@
+---
+request:
+  method: get
+  uri: http://www.parlam.kz/ru/blogs/Bychkova
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Cache-Control:
+    - private
+    Content-Type:
+    - text/html; charset=utf-8
+    Vary:
+    - Accept-Encoding
+    Server:
+    - Microsoft-IIS/8.0
+    X-Aspnetmvc-Version:
+    - '4.0'
+    X-Aspnet-Version:
+    - 4.0.30319
+    Set-Cookie:
+    - __RequestVerificationToken=eMr6Dq-c6eN6_EWCfdrND80enV9R1dW9-G5ouvX5RMF3F1ywP-lxfdi7XnOtQe5jlmHVPIJ-V9-3gJ04hSGATy-VQTtpMENNn4vikAZpe4E1;
+      path=/; HttpOnly
+    X-Powered-By:
+    - ASP.NET
+    Date:
+    - Tue, 02 Aug 2016 20:10:29 GMT
+    Content-Length:
+    - '6378'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 02 Aug 2016 20:14:11 GMT
