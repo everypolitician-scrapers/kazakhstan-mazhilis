@@ -1,0 +1,44 @@
+---
+request:
+  method: get
+  uri: http://www.parlam.kz/kk/blogs/Baimahanova
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Cache-Control:
+    - private
+    Content-Type:
+    - text/html; charset=utf-8
+    Vary:
+    - Accept-Encoding
+    Server:
+    - Microsoft-IIS/8.0
+    X-Aspnetmvc-Version:
+    - '4.0'
+    X-Aspnet-Version:
+    - 4.0.30319
+    Set-Cookie:
+    - __RequestVerificationToken=s_vsUnG4QaTy5PdSH5hAg8r6MbVSJp_R3P51HGkXyqWOnXefvTCRiDRzHrZdnQYpjLPik3aMcwUBbzoYqNDYRC0uYeGl9l1EKBNHIVU33uI1;
+      path=/; HttpOnly
+    X-Powered-By:
+    - ASP.NET
+    Date:
+    - Tue, 02 Aug 2016 20:08:38 GMT
+    Content-Length:
+    - '5973'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 02 Aug 2016 20:12:20 GMT
