@@ -1,0 +1,44 @@
+---
+request:
+  method: get
+  uri: http://www.parlam.kz/kk/blogs/Karagusova
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Cache-Control:
+    - private
+    Content-Type:
+    - text/html; charset=utf-8
+    Vary:
+    - Accept-Encoding
+    Server:
+    - Microsoft-IIS/8.0
+    X-Aspnetmvc-Version:
+    - '4.0'
+    X-Aspnet-Version:
+    - 4.0.30319
+    Set-Cookie:
+    - __RequestVerificationToken=AvWimwl-hxQTQFC3zq6jJDdVx0-UxhtpjXrSSlna4uoHtw37ncWEEuJyP6tmbrfhBFyeE9OVy5udG9QfMlAkRCBO7cHrfqWcj3q1jll-N4A1;
+      path=/; HttpOnly
+    X-Powered-By:
+    - ASP.NET
+    Date:
+    - Tue, 02 Aug 2016 20:16:41 GMT
+    Content-Length:
+    - '5920'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 02 Aug 2016 20:20:23 GMT
