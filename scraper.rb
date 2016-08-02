@@ -13,7 +13,7 @@ require 'open-uri/cached'
 require 'scraperwiki'
 require 'scraped_page_archive'
 
-OpenURI::Cache.cache_path = '.cache'
+# OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
