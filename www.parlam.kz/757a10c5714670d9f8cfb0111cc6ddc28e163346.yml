@@ -19,8 +19,6 @@ response:
   headers:
     Cache-Control:
     - private
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=utf-8
     Vary:
@@ -32,13 +30,15 @@ response:
     X-Aspnet-Version:
     - 4.0.30319
     Set-Cookie:
-    - __RequestVerificationToken=ceMFoCcwrPmRvP57Ov1CnDNmA3fYSWq__SaMGfkzcbC1Q8wPt_aVALoFai5v4LvszirmyBd1wCi29tky-KK4_By-shlyhf4tH0Mr3kPZge41;
+    - __RequestVerificationToken=m9MJkYQVTQnwFVhXLC6BZuVfhooDXQmmG3IxCbAPRHtGgMz6dqHJ8YH9Om5prBj4vVrFJmcOkBlq9DL2r6NT4fUTgUfm2xTjwzRkj_seshE1;
       path=/; HttpOnly
     X-Powered-By:
     - ASP.NET
     Date:
-    - Tue, 02 Aug 2016 20:14:44 GMT
+    - Fri, 05 Aug 2016 10:11:05 GMT
+    Content-Length:
+    - '81204'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 02 Aug 2016 20:18:26 GMT
+recorded_at: Fri, 05 Aug 2016 10:15:05 GMT
