@@ -28,14 +28,16 @@ response:
     X-Aspnetmvc-Version:
     - '4.0'
     X-Aspnet-Version:
-    - 4.0.30319
+    - XXXXXXXXXX
     X-Powered-By:
-    - ASP.NET
+    - XXXXXXXX
     Date:
-    - Tue, 20 Dec 2016 06:09:10 GMT
+    - Wed, 21 Dec 2016 16:13:09 GMT
     Content-Length:
     - '1262'
+    Set-Cookie:
+    - cookiesession1=6A81ECFFRD1LYFTBUPWRQQGDV9ZRF2A7;Path=/;HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 20 Dec 2016 06:14:57 GMT
+recorded_at: Wed, 21 Dec 2016 16:19:04 GMT
