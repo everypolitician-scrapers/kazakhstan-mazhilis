@@ -32,12 +32,12 @@ response:
     X-Powered-By:
     - XXXXXXXX
     Date:
-    - Tue, 20 Jun 2017 06:45:42 GMT
+    - Wed, 21 Jun 2017 05:04:09 GMT
     Content-Length:
     - '1154'
     Set-Cookie:
-    - cookiesession1=6A81ED1AALTPEOKRDG6LUWLMXMAKD027;Path=/;HttpOnly
+    - cookiesession1=6A81ED1ACMNLIZ14NE1L0HJM31N024BD;Path=/;HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 20 Jun 2017 06:53:35 GMT
+recorded_at: Wed, 21 Jun 2017 05:12:09 GMT
