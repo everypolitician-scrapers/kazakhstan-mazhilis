@@ -31,13 +31,15 @@ response:
     - XXXXXXXXXX
     X-Powered-By:
     - XXXXXXXX
+    X-Xss-Protection:
+    - 1;mode=block
     Date:
-    - Wed, 27 Sep 2017 09:13:07 GMT
+    - Thu, 28 Sep 2017 23:13:14 GMT
     Content-Length:
     - '803'
     Set-Cookie:
-    - cookiesession1=2C26BE3149HLHX8K4SW3IPN3RIWB63BA;Path=/;HttpOnly
+    - cookiesession1=2C26BE31SDA0GVELL8JJMH0ZFA8I0EBF;Path=/;HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 27 Sep 2017 09:13:08 GMT
+recorded_at: Thu, 28 Sep 2017 23:13:14 GMT
