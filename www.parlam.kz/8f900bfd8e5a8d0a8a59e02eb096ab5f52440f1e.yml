@@ -34,12 +34,12 @@ response:
     X-Xss-Protection:
     - 1;mode=block
     Date:
-    - Fri, 27 Oct 2017 12:10:21 GMT
+    - Sat, 28 Oct 2017 07:52:09 GMT
     Content-Length:
     - '2050'
     Set-Cookie:
-    - cookiesession1=5CC84D65LCCIPD8UYT2CFHYE5KML3253;Path=/;HttpOnly
+    - cookiesession1=5CC84D65EY20PIGI2WOOE91I3UQM43C8;Path=/;HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 27 Oct 2017 12:10:22 GMT
+recorded_at: Sat, 28 Oct 2017 07:52:10 GMT
