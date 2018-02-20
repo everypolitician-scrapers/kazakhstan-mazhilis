@@ -34,10 +34,10 @@ response:
     X-Xss-Protection:
     - 1;mode=block
     Date:
-    - Mon, 19 Feb 2018 20:32:25 GMT
+    - Tue, 20 Feb 2018 17:55:06 GMT
     Content-Length:
     - '2050'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 19 Feb 2018 20:32:26 GMT
+recorded_at: Tue, 20 Feb 2018 17:55:07 GMT
