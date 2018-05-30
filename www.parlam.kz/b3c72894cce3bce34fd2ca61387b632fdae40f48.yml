@@ -34,12 +34,12 @@ response:
     X-Xss-Protection:
     - 1;mode=block
     Date:
-    - Tue, 29 May 2018 17:52:28 GMT
+    - Wed, 30 May 2018 22:14:04 GMT
     Content-Length:
     - '1002'
     Set-Cookie:
-    - cookiesession1=0961EF57HDFOWD7D4VDPLZ1BXS6G0535;Path=/;HttpOnly
+    - cookiesession1=0961EF57NRRZAL1EZ88AHTRRHJWUA4D3;Path=/;HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 29 May 2018 17:52:29 GMT
+recorded_at: Wed, 30 May 2018 22:14:04 GMT
