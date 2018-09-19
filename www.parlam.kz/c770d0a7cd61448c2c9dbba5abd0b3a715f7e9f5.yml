@@ -21,25 +21,21 @@ response:
     - private
     Content-Type:
     - text/html; charset=utf-8
-    Vary:
-    - Accept-Encoding
     Server:
-    - Microsoft-IIS/8.0
+    - Microsoft-IIS/10.0
     X-Aspnetmvc-Version:
     - '4.0'
     X-Aspnet-Version:
     - XXXXXXXXXX
     X-Powered-By:
     - XXXXXXXX
-    X-Xss-Protection:
-    - 1;mode=block
     Date:
-    - Tue, 18 Sep 2018 07:27:05 GMT
+    - Wed, 19 Sep 2018 03:13:15 GMT
     Content-Length:
-    - '803'
+    - '4329'
     Set-Cookie:
-    - cookiesession1=6ABCE01CGGY7FGLTCWLMLIEI93UNBD15;Path=/;HttpOnly
+    - cookiesession1=6ABCE01CEFNBTO4BGL136HKQQRIG8B10;Path=/;HttpOnly
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 18 Sep 2018 07:27:06 GMT
+recorded_at: Wed, 19 Sep 2018 03:13:16 GMT
