@@ -7,14 +7,12 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'pry'
-
 require 'nokogiri'
-require 'open-uri/cached'
 require 'scraperwiki'
-require 'scraped_page_archive/open-uri'
 
 
-# OpenURI::Cache.cache_path = '.cache'
+require 'open-uri/cached'
+OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
@@ -76,7 +74,6 @@ pages = index_pages("http://www.parlam.kz/en/mazhilis/People/DeputyList/")
 deputats = pages.map { |page| deputats_on(page) }.flatten
 
 deputats = deputats.map do |person|
-  
   #get russian bio url
   page = page_for(person[:website__ru])
   bio = page.css('div.bio')
